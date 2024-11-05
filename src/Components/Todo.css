@@ -1,0 +1,111 @@
+/* Container styling */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f98282;
+}
+
+/* Todo app box styling */
+.todo-app {
+  background-color: #1d1919;
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Title styling */
+.todo-app h1 {
+  font-size: 25px;
+  color: #06d613;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.todo-app h1 i {
+  margin-right: 8px;
+  color: #4CAF50;
+}
+
+/* Form and input styling */
+form {
+  display: flex;
+  gap: 10px;
+}
+
+#input-box {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 3px solid #004fe1;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+#input-box:focus {
+  border-color: #02ff0a;
+}
+
+button {
+  padding: 10px 15px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #388E3C;
+}
+
+/* Task list styling */
+#list-container {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+#list-container li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #f9f9f9;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  transition: background-color 0.3s;
+}
+
+#list-container li:hover {
+  background-color: #f1f1f1;
+}
+
+#list-container li p {
+  margin: 0;
+  font-size: 16px;
+  color: #333;
+  flex: 1;
+}
+
+/* Delete icon styling */
+.icon-style {
+  font-size: 24px;
+  color: #e74c3c;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.icon-style:hover {
+  color: #c0392b;
+}
